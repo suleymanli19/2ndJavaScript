@@ -146,12 +146,79 @@
 // console.log(l)
 
 //15. Beşrəqəmli ədəd verilib. Bu ədədin soldan birinci rəqəmdən başlayaraq, bütün rəqəmlərinin artan sıra ilə düzülüb-düzülmədiyini müəyyən etmək lazımdır. Məsələn, 15689 ədədinin bütün rəqəmləri artan sıra ilə düzülüb. İn 12345 Out YES
-let a = 12345;
-let b = parseInt(a / 10000);
-let c = parseInt(a / 1000) % 10;
-let d = parseInt(a / 100) % 10;
-let f = parseInt(a / 10) % 10;
-let g = a % 10;
-if (g>f && f>d && d>c && c>b) {
-    console.log("YES")
-} else console.log("NO")
+// let a = 12345;
+// let b = parseInt(a / 10000);
+// let c = parseInt(a / 1000) % 10;
+// let d = parseInt(a / 100) % 10;
+// let f = parseInt(a / 10) % 10;
+// let g = a % 10;
+// if (g>f && f>d && d>c && c>b) {
+//     console.log("YES")
+// } else console.log("NO")
+
+//Programming Problems - 2. Bew dene mesele var onlari yaziram.
+//1.Verilmiş 3 rəqəmli ədədin Armstrong ədədi(Armstrong Number) olduğunu yoxlayın. Əgər Armstrong ədədirsə o zaman konsola "YES", əks halda isə "NO" çıxardın.
+// let a = 153;
+// let b = parseInt(a / 100)
+// let c = parseInt(a / 10) % 10;
+// let d = a % 10;
+// let f = b**3 + c**3 + d**3;
+// if (a === f) {
+//     console.log("YES")
+// } else console.log("NO")
+
+
+//2.Verilmiş 4 rəqəmli ədədin Armstrong ədədi(Armstrong Number) olduğunu yoxlayın. Əgər Armstrong o zaman konsola "YES", əks halda isə "NO" çıxardın.
+// let a = 1634;//or any 4 digit number
+// let b = parseInt(a / 1000)
+// let c = parseInt(a / 100) % 10;
+// let d = parseInt(a / 10) % 10;
+// let f = a % 10;
+// let h = b**4 + c**4 + d**4 + f**4;
+// if (a === h) {
+//     console.log("YES")
+// } else console.log("NO")
+
+//3. 3 ədəd daxil edilir. Onlarını ən böyüyünü konsola çıxardın
+// let a = 4;
+// let b = 2;
+// let c = 3;
+// if (a > b && a > c) {
+//     console.log(a)
+// } else if (b > a && b > c) {
+//     console.log(b)
+// } else if (c > a && c > b) {
+//     console.log(c)
+// }
+
+//4. 3 ədəd daxil edilir. Onlarını ən kiçiyini konsola çıxardın
+// let a = 4;
+// let b = 2;
+// let c = 3;
+// if (a < b && a < c) {
+//     console.log(a)
+// } else if (b < a && b < c) {
+//     console.log(b)
+// } else if (c < a && c < b) {
+//     console.log(c)
+// }
+
+//5. 3 eded daxil edilir. onlarin ortancilini konsola cixarin
+let a = 3;
+let b = 5;
+let c = 1;
+if (b > c && b < a)  {
+    console.log(b)
+} else if (b < c && b > a) {
+    console.log(b)
+} 
+if (c > a && c < b) {
+    console.log(c)
+} else if (c < a && c > b) {
+    console.log(c)
+}
+if (a > b && a < c) {
+    console.log(a)
+} else if (a < b && a > c) {
+    console.log(a)
+}
